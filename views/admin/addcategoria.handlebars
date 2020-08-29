@@ -1,0 +1,25 @@
+<h2>Nova Categoria</h2>
+<hr>
+
+<div class="card">
+    <div class="card-body">
+          Adicione a Nome da Categoria e o Slug.
+
+          Lembre-se de que o Slug deve ser com letra minúscula e não deve conter
+          caracteres especiais nem espaço.
+        <hr>
+        <form action="/admin/categorias/nova" method="POST">
+            <label for="nome"> Nome: </label>
+                <input type="tex" id "nome" name="nome" placeholder = "Nome da Categoria" class="form-control"
+            <label for="slug"> Slug: </label>
+                <input type="text" id="slug" name="slug" placeholder="Slug da Categoria" class="form-control"
+            <hr>
+            <br>
+     </div>
+ </div>
+<a href="/admin/categorias" button type="button" class="btn btn-success">Adição de Categoria</button></a>
+<hr>
+<a href="/admin/categorias" button type="button" class="btn btn-success">Lista de Categoria</button></a>
+
+
+</form>
